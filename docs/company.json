@@ -1,11 +1,9 @@
 {
-  "cif": "33159615",
-  "legalName": "EPAM SYSTEMS INTERNATIONAL SRL",
-  "brand": "EPAM",
-  "website": "https://www.epam.com",
-  "careerUrl": "https://careers.epam.com",
-  "apiBase": "https://careers.epam.com",
-  "apiCountryId": "8150000000000001155",
+  "cif": "16139707",
+  "legalName": "STEFANINI ROMANIA SRL",
+  "brand": "STEFANINI",
+  "website": "https://www.stefanini.com",
+  "careerUrl": "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania",
   "defaultLocation": "București",
-  "scraperFile": "https://raw.githubusercontent.com/sebiboga/epam-systems-international-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  "scraperFile": "https://raw.githubusercontent.com/sebiboga/stefanini-romania-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
 }
