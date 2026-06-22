@@ -1,4 +1,5 @@
 import { jest } from '@jest/globals';
+import companyConfig from '../../config/company.js';
 
 describe('index.js Component Tests', () => {
   let index;
@@ -30,17 +31,17 @@ describe('index.js Component Tests', () => {
 
     it('should keep company uppercase', () => {
       const payload = {
-        source: 'epam.com',
-        company: 'epam systems international srl',
-        cif: '33159615',
+        source: 'smartsearchonline.com',
+        company: 'stefanini romania srl',
+        cif: '16139707',
         jobs: [
-          { url: 'https://test.com/1', title: 'Job 1', company: 'epam systems', cif: '33159615' }
+          { url: 'https://test.com/1', title: 'Job 1', company: 'stefanini romania', cif: '16139707' }
         ]
       };
 
       const result = index.transformJobsForSOLR(payload);
 
-      expect(result.company).toBe('EPAM SYSTEMS INTERNATIONAL SRL');
+      expect(result.company).toBe('STEFANINI ROMANIA SRL');
     });
 
     it('should normalize workmode values', () => {
@@ -70,15 +71,15 @@ describe('index.js Component Tests', () => {
   describe('mapToJobModel', () => {
     it('should map raw job to job model format', () => {
       const rawJob = {
-        url: 'https://careers.epam.com/job/123',
+        url: 'https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/job_detail.asp?jobid=123',
         title: 'Senior Developer',
         location: ['Bucharest'],
         tags: ['Java', 'Spring'],
         workmode: 'hybrid'
       };
 
-      const COMPANY_NAME = 'EPAM SYSTEMS INTERNATIONAL SRL';
-      const COMPANY_CIF = '33159615';
+      const COMPANY_NAME = 'STEFANINI ROMANIA SRL';
+      const COMPANY_CIF = '16139707';
 
       const result = index.mapToJobModel(rawJob, COMPANY_CIF, COMPANY_NAME);
 
@@ -99,7 +100,7 @@ describe('index.js Component Tests', () => {
         title: 'Job 1'
       };
 
-      const result = index.mapToJobModel(rawJob, '33159615');
+      const result = index.mapToJobModel(rawJob, '16139707');
 
       expect(result.location).toBeUndefined();
       expect(result.tags).toBeUndefined();
@@ -109,112 +110,60 @@ describe('index.js Component Tests', () => {
     it('should handle missing title', () => {
       const rawJob = { url: 'https://test.com/1' };
 
-      const result = index.mapToJobModel(rawJob, '33159615');
+      const result = index.mapToJobModel(rawJob, '16139707');
 
       expect(result.title).toBeUndefined();
       expect(result.url).toBe('https://test.com/1');
     });
   });
 
-  describe('parseApiJobs', () => {
-    it('should parse EPAM API response format', () => {
-      const apiData = {
-        data: {
-          total: 100,
-          jobs: [
-            {
-              uid: '123',
-              name: 'Senior Developer',
-              city: [{ name: 'Bucharest' }],
-              country: [{ name: 'Romania' }],
-              vacancy_type: 'Hybrid',
-              skills: ['Java', 'Spring']
-            }
-          ]
-        }
-      };
+  describe('parseJobsHTML', () => {
+    it('should parse SmartSearchOnline HTML job listings', () => {
+      const html = `
+        <html>
+        <body>
+          <div class="list-group-item">
+            <a class="coloredlink bold" href="job_detail.asp?jobid=123">Senior Developer</a>
+            <div class="thinrow">Bucharest</div>
+            <div class="thinrow">Posted 10 days ago</div>
+          </div>
+          <div class="list-group-item">
+            <a class="coloredlink bold" href="job_detail.asp?jobid=456">Junior Tester</a>
+            <div class="thinrow">Cluj-Napoca, Timișoara</div>
+            <div class="thinrow">Posted 5 days ago</div>
+          </div>
+        </body>
+        </html>
+      `;
 
-      const result = index.parseApiJobs(apiData);
+      const result = index.parseJobsHTML(html);
 
-      expect(result.jobs).toHaveLength(1);
-      expect(result.jobs[0].title).toBe('Senior Developer');
-      expect(result.jobs[0].location).toEqual(['Bucharest']);
-      expect(result.jobs[0].workmode).toBe('hybrid');
+      expect(result).toHaveLength(2);
+      expect(result[0].title).toBe('Senior Developer');
+      expect(result[0].url).toContain('job_detail.asp?jobid=123');
+      expect(result[0].location).toEqual(['Bucharest']);
+      expect(result[1].title).toBe('Junior Tester');
+      expect(result[1].location).toEqual(['Cluj-Napoca', 'Timișoara']);
     });
 
-    it('should handle empty job list', () => {
-      const apiData = { data: { total: 0, jobs: [] } };
+    it('should skip items without title', () => {
+      const html = `
+        <html>
+        <body>
+          <div class="list-group-item">
+            <span>No link here</span>
+          </div>
+        </body>
+        </html>
+      `;
 
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs).toEqual([]);
+      const result = index.parseJobsHTML(html);
+      expect(result).toHaveLength(0);
     });
 
-    it('should handle missing data field', () => {
-      const result = index.parseApiJobs({});
-
-      expect(result.jobs).toEqual([]);
-    });
-
-    it('should handle multiple cities', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: '123',
-              name: 'Developer',
-              city: [{ name: 'Bucharest' }, { name: 'Cluj-Napoca' }],
-              country: [{ name: 'Romania' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].location).toEqual(['Bucharest', 'Cluj-Napoca']);
-    });
-  });
-
-  describe('URL Generation', () => {
-    it('should use seo.url when available', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: 'blt123',
-              name: 'Test Job',
-              seo: { url: '/en/vacancy/test-job-blt123_en' },
-              city: [{ name: 'Bucharest' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].url).toBe('https://careers.epam.com/en/vacancy/test-job-blt123_en');
-    });
-
-    it('should fallback to uid-based URL when no seo.url', () => {
-      const apiData = {
-        data: {
-          total: 1,
-          jobs: [
-            {
-              uid: 'blt456',
-              name: 'Test Job',
-              city: [{ name: 'Bucharest' }]
-            }
-          ]
-        }
-      };
-
-      const result = index.parseApiJobs(apiData);
-
-      expect(result.jobs[0].url).toBe('https://careers.epam.com/en/vacancy/blt456_en');
+    it('should handle empty HTML', () => {
+      const result = index.parseJobsHTML('<html><body></body></html>');
+      expect(result).toEqual([]);
     });
   });
 });

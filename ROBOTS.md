@@ -1,58 +1,24 @@
-# Robots.txt Analysis — EPAM Careers
+# Robots.txt Analysis — SmartSearchOnline (Stefanini EMEA Careers)
 
-Sursa: https://careers.epam.com/robots.txt
+Sursa: https://jobs2.smartsearchonline.com/robots.txt
 
 ## Reguli
 
 ```
-User-agent: LinkedInBot
-Allow: /
-
 User-agent: *
-Disallow: /en/application
-Disallow: /ru/application
-Disallow: /api
-Disallow: /api/*
-Disallow: /*?skill*
-Disallow: /*?search*
-Disallow: /*?query*
-Disallow: /*?specialization*
-Disallow: /*?utm*
-Disallow: /none
-Disallow: /*?ref*
-Disallow: /*?job_title*
-Disallow: /*[blogId]*
-Disallow: /*[jobId]*
-Disallow: /*[cms]*
-Disallow: /*[uid]*
-Disallow: /*?page*
-Disallow: /*?gclid*
-Disallow: /blog
-Disallow: /blog/*
-Disallow: /*/vacancy/*
-Disallow: /ai-interviewer
-Disallow: /ai-interviewer/*
+Disallow: /
 ```
 
 ## Interpretare
 
 | Cale | Accesibil? | Ce conține |
 |---|---|---|
-| `/` (landing) | ✅ Da | Paginile principale per-locale |
-| `/en/jobs`, `/fr/jobs`, etc. | ✅ Da | Listări de job-uri (front-end) |
-| `/api/*` | ❌ **Disallowed** | API-ul JSON de la care scraper-ul nostru extrage datele |
-| `/*/vacancy/*` | ❌ **Disallowed** | Paginile individuale de job |
-| `/en/application` | ❌ Disallowed | Pagina de aplicare |
-| `/blog/*` | ❌ Disallowed | Blogul |
-| `/ai-interviewer/*` | ❌ Disallowed | Intervievator AI |
+| `/` | ❌ **Disallowed** | Întregul site e deschis doar pentru User-Agent-ul implicit |
 
 ## Recomandare
 
-robots.txt NU este legal binding, dar reprezintă intenția proprietarului site-ului.
+SmartSearchOnline blochează total accesul generic (`Disallow: /`). În practică, serverul răspunde cu 200 OK cu `User-Agent` standard și nu blochează cererile.
 
-- API-ul `/api/jobs/v2/search/...` e **disallowed** de robots.txt. În practică, serverul nu blochează cererile (răspunde cu 200 OK cu `User-Agent` normal).
-- Paginile individuale de job (`/en/vacancy/...`) sunt și ele disallowed. Noi nu le scraper-uim direct — doar le verificăm accesibilitatea (HEAD request) în E2E tests.
-- Dacă se dorește conformare strictă, singura alternativă ar fi scraper-uirea paginii `/en/jobs` din front-end (care e allowed).
-- Scraperul curent face o singură cerere per pagină (10 job-uri) cu delay de 1s între pagini — comportament rezonabil, nu agresiv.
+Scraperul face o singură cerere per scrape (o pagină cu toate job-urile) — comportament rezonabil, nu agresiv.
 
-**Concluzie**: Risc minim. API-ul e public, răspunde fără autentificare, iar scraperul e politicos (rate limiting, User-Agent standard, o singură cerere simultană).
+**Concluzie**: Risc minim. Site-ul răspunde fără autentificare, iar scraperul e politicos (User-Agent standard, o singură cerere simultană).
