@@ -1,6 +1,6 @@
 # Issues
 
-Acest proiect folosește [GitHub Issues](https://github.com/sebiboga/epam-systems-international-srl-nodejs-scraper/issues) pentru a urmări munca.
+Acest proiect folosește [GitHub Issues](https://github.com/sebiboga/stefanini-romania-srl-nodejs-scraper/issues) pentru a urmări munca.
 
 ## Regulă
 
