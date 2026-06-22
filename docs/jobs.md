@@ -14,7 +14,7 @@
 
 ## Current Job Listings (21)
 
-_Generated: 2026-06-22T07:50:45.710Z_
+_Generated: 2026-06-22T12:21:59.956Z_
 
 ### Front End internship
 
