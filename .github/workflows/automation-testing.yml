@@ -57,6 +57,11 @@ jobs:
         env:
           SOLR_AUTH: ${{ secrets.SOLR_AUTH }}
         run: |
+          if [ -z "${SOLR_AUTH}" ]; then
+            echo "🔇 SOLR_AUTH not set — skipping company core check"
+            exit 0
+          fi
+
           # Load company identity from single source of truth
           CIF=$(jq -r '.cif' config/company.json)
           LEGAL_NAME=$(jq -r '.legalName' config/company.json)
