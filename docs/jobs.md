@@ -10,16 +10,16 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-06-22 |
+| Last Scraped | 2026-06-23 |
 
-## Current Job Listings (21)
+## Current Job Listings (18)
 
-_Generated: 2026-06-22T12:21:59.956Z_
+_Generated: 2026-06-23T09:59:18.015Z_
 
-### Front End internship
+### Verification Associate
 
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45190&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45190&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45188&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45188&apply=yes&country=Romania&)
+- **Location:** România
 - **Status:** scraped
 
 ### QA Engineer
@@ -82,12 +82,6 @@ _Generated: 2026-06-22T12:21:59.956Z_
 - **Location:** România
 - **Status:** scraped
 
-### Verification Associate
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45188&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45188&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
 ### Business System Analyst
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45165&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45165&apply=yes&country=Romania&)
@@ -112,12 +106,6 @@ _Generated: 2026-06-22T12:21:59.956Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Full-Stack .NET Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45143&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45143&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
 ### HCI SQL Database Administrator
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45066&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45066&apply=yes&country=Romania&)
@@ -127,12 +115,6 @@ _Generated: 2026-06-22T12:21:59.956Z_
 ### Senior Databricks Data Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### IT Adoption Specialist
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44998&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44998&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
