@@ -10,11 +10,17 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-06-25 |
+| Last Scraped | 2026-06-27 |
 
-## Current Job Listings (17)
+## Current Job Listings (16)
 
-_Generated: 2026-06-25T09:38:20.274Z_
+_Generated: 2026-06-27T08:47:49.730Z_
+
+### SAP Basis Admin
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Verification Associate
 
@@ -55,12 +61,6 @@ _Generated: 2026-06-25T09:38:20.274Z_
 ### Sr. SAP Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45088&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45088&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### SAP Basis Admin
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
@@ -109,11 +109,5 @@ _Generated: 2026-06-25T09:38:20.274Z_
 ### Senior Databricks Data Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Nexthink Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45059&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45059&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
