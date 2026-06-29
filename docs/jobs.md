@@ -10,11 +10,11 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-06-28 |
+| Last Scraped | 2026-06-29 |
 
-## Current Job Listings (16)
+## Current Job Listings (15)
 
-_Generated: 2026-06-28T09:25:23.121Z_
+_Generated: 2026-06-29T11:19:17.251Z_
 
 ### SAP Basis Admin
 
@@ -91,12 +91,6 @@ _Generated: 2026-06-28T09:25:23.121Z_
 ### Technical Service Management Manager
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45150&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45150&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Business Analyst
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
