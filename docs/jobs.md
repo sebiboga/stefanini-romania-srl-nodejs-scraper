@@ -10,11 +10,17 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-06 |
+| Last Scraped | 2026-07-08 |
 
-## Current Job Listings (13)
+## Current Job Listings (12)
 
-_Generated: 2026-07-06T10:55:33.425Z_
+_Generated: 2026-07-08T09:20:39.210Z_
+
+### Senior Platform Engineer / DevOps Consultant (GitOps & Artifact Storage Platform)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Senior Java Developer
 
@@ -70,21 +76,9 @@ _Generated: 2026-07-06T10:55:33.425Z_
 - **Location:** România
 - **Status:** scraped
 
-### Middleware Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45114&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45114&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
 ### Solution Lead � Presales (EMEA Region)
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### HCI SQL Database Administrator
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45066&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45066&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
