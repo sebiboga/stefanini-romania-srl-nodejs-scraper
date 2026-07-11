@@ -10,11 +10,23 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-10 |
+| Last Scraped | 2026-07-11 |
 
-## Current Job Listings (12)
+## Current Job Listings (14)
 
-_Generated: 2026-07-10T09:50:03.043Z_
+_Generated: 2026-07-11T08:07:54.404Z_
+
+### IT Risk & Compliance Officer (Cloud) - Fixed-Term Contract (6 months with Possibility of Extension)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45293&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45293&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Cyber Risk Analyst (AI) - Fixed-Term Contract (6 months with Possibility of Extension)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45292&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45292&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Senior Platform Engineer / DevOps Consultant (GitOps & Artifact Storage Platform)
 
