@@ -10,11 +10,11 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-12 |
+| Last Scraped | 2026-07-13 |
 
-## Current Job Listings (14)
+## Current Job Listings (13)
 
-_Generated: 2026-07-12T08:28:58.787Z_
+_Generated: 2026-07-13T09:42:37.399Z_
 
 ### IT Risk & Compliance Officer (Cloud) - Fixed-Term Contract (6 months with Possibility of Extension)
 
@@ -43,12 +43,6 @@ _Generated: 2026-07-12T08:28:58.787Z_
 ### SIAM Manager
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45065&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45065&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Sr. SAP Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45088&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45088&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
