@@ -10,13 +10,13 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-15 |
+| Last Scraped | 2026-07-16 |
 
-## Current Job Listings (15)
+## Current Job Listings (14)
 
-_Generated: 2026-07-15T08:28:34.519Z_
+_Generated: 2026-07-16T08:27:00.802Z_
 
-### Automation Software Engineer
+### DWP Software Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&)
 - **Location:** România
@@ -62,12 +62,6 @@ _Generated: 2026-07-15T08:28:34.519Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45282&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45282&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### SIAM Manager
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45065&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45065&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### SAP Basis Admin
