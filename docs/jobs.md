@@ -10,23 +10,11 @@
 | Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-20 |
+| Last Scraped | 2026-07-21 |
 
-## Current Job Listings (15)
+## Current Job Listings (13)
 
-_Generated: 2026-07-20T09:30:42.016Z_
-
-### Support Engineer with German
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Support Engineer with English
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45312&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45312&apply=yes&country=Romania&)
-- **Location:** Sibiu, România
-- **Status:** scraped
+_Generated: 2026-07-21T08:41:04.731Z_
 
 ### SAP Technical Services Coordinator
 
